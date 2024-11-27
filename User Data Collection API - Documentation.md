@@ -51,7 +51,7 @@ The `UserList` component fetches and displays user data from the API. It include
 - **`filter`**: Stores the filter values for **gender**, **city**, and **country**.
 - **`page`** and **`limit`**: Used for pagination control.
 
-#### Effect Hook:
+#### UseEffect Hook:
 - Calls `fetchUsers` whenever **filter**, **page**, or **limit** changes.
 
 #### `fetchUsers` Function:
@@ -100,4 +100,4 @@ The API route handles GET requests to the `/api/users` endpoint, fetches user da
 ---
 
 ## Summary
-This setup ensures that your application can fetch, filter, and display user data efficiently, with features for filtering, pagination, and debugging.
+This setup ensures that application can fetch, filter, and display user data efficiently, with features for filtering, pagination, and debugging.
